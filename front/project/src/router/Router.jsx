@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import Admin from "../pages/admin/Admin";
 import Basket from "../pages/basket/Basket";
 import Wish from "../pages/wishlist/Wish";
+import NotFoundPage from "../pages/notfound/NotFoundPage";
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +27,11 @@ export const router = createBrowserRouter([
                 path: "/wish",
                 element: <Wish />,
             },
+            {
+                path: "/notfound",
+                element: <NotFoundPage />,
+            },
+            
         ],
     },
     {
